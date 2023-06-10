@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">IniPunyaHilmiy</string>
+
+    <!--fragment home, fragment profile-->
+    <string name="welcome">Selamat Datang!</string>
+    <string name="namahead">Muhammad Hilmiy Muharram</string>
+    <string name="nimhead">10120757</string>
+    <string name="title_aboutme">Tentang Saya</string>
+    <string name="title_contactme">Kontak Saya</string>
+
+    <string name="phone">+6281385653880</string>
+    <string name="about"> Tentang Aplikasi</string>
+    <string name="aboutme">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="namalengkap">Nama : Muhammad Hilmiy Muharram</string>
+    <string name="nim">NIM : 10120757</string>
+    <string name="kelas">Kelas : IF-9</string>
+    <string name="jeniskelamin">Jenis Kelamin : Laki-laki</string>
+    <string name="ttl">TTL : Bandung, 10 April 2002</string>
+    <string name="hobi">Hobi : Main Banged</string>
+    <string name="makananfavorit">"Makanan Favorit : Nasi Goreng</string>
+    <string name="minumanfavorit">Minuman Favorit : Air Putih</string>
+    <string name="lagufavorit">Lagu Favorit : Juicy Luicy - Lantas</string>
+    <string name="filmfavorit">Film Favorit : Spiderman</string>
+    <string name="citacita">Cita-cita : Membanggakan orang tua</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alamat">Alamat : Komp.Cibolerang Blok G-14 Rt.01/Rw.07</string>
+    <string name="title_gallery" />
+</resources>

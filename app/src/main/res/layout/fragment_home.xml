@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/white"
+    tools:context="com.example.inipunyahilmiy.Fragment.HomeFragment">
+
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="60dp"
+         android:src="@drawable/logoku"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scrollbars="none"
+        android:fadeScrollbars="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="85dp"
+            android:layout_height="96dp"
+            android:src="@drawable/reyka"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reyka_mr"
+            android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="85dp"
+                android:layout_height="96dp"
+                android:src="@drawable/abi"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abi_wiraatmadja"
+                android:textStyle="bold"/>
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="85dp"
+            android:layout_height="96dp"
+            android:src="@drawable/bintang"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mhmmddbintang_"
+            android:textStyle="bold"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="85dp"
+                android:layout_height="96dp"
+                android:src="@drawable/fajar"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="faalaakkkk"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="85dp"
+                android:layout_height="96dp"
+                android:src="@drawable/cal"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="calfirizki"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="85dp"
+                android:layout_height="96dp"
+                android:src="@drawable/bay"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iqballln"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#eaeaea"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                android:id="@+id/konten1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ARGENTINA VS INDONESIA"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/gambarkonten2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pertama" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jakarta - PSSI mengumumkan harga tiket Indonesia vs Argentina pada FIFA Matchday 19 Juni nanti. Harganya dibanderol mulai Rp 600 ribu!PSSI menggelar jumpa pers di GBK, Jakarta, Senin (29/5) bertajuk Launching Tiket FMD Indonesia vs Argentina. Seperti diketahui, Indonesia vs Argentina akan bermain di FIFA Matchday di Stadion Gelora Bung Karno pada 19 Juni mendatang.Kedua tim sudah mengumumkan skuad masing-masing. Nama Lionel Messi, megabintang Tim Tango masuk di dalamnya."
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#eaeaea"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                android:layout_below="@id/konten1"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COLDPLAY WORLD TOUR"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bismi" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jakarta, CNBC Indonesia - Vokalis Coldplay, Chris Martin rupanya sudah tahu ada desakan agar konser bandnya dibatalkan di sejumlah negara yang mayoritas penduduknya beragama Islam, seperti di Indonesia dan Malaysia.
+Seperti diketahui, kelompok solidaritas 212 di Indonesia menolak kedatangan Coldplay karena band legendaris asal Inggris tersebut kerap mengampanyekan hak-hak kelompok LGBT dalam konsernya. Sementara itu, di Malaysia ada Partai Islam Malaysia (PAS) yang juga mendesak agar konser Coldplay Stadion yang bakal digelar di Nasional Bukit Jalil Kuala Lumpur pada 22 November dibatalkan."
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#eaeaea"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                android:layout_below="@id/konten1"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="JUARA SEA GAMES"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textSize="45dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/indo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jakarta, CNN Indonesia -- Timnas Indonesia U-22 menuntaskan dahaga gelar selama lebih dari tiga dekade setelah menghajar Thailand pada laga final SEA Games 2023 di Stadion Olympic, Phnom Penh, Selasa (16/5) malam.Duel sengit skuad junior Garuda dan Gajah Perang berlangsung alot. Indonesia sempat unggul 2-0 lebih dulu melalui brace Ramadhan Sananta pada babak pertama."
+                        android:textAlignment="center"
+                        android:layout_marginBottom="100dp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
+
